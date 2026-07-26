@@ -30,3 +30,6 @@ jobs:
 
       - name: Test
         run: dotnet test PrimeiraApi.sln --configuration Release --no-build
+
+      - name: Run
+        run: dotnet run PrimeiraApi/PrimeiraApi.csproj
