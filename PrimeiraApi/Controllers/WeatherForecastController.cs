@@ -48,12 +48,9 @@ namespace PrimeiraApi_WeatherForecast.Controllers
         public void PutTemp(string nameSummary)
         {
             int id = 0;
-            //            WeatherForecast teste = new WeatherForecast();
 
             List<WeatherForecast> l = DbContext.DataBase;
             id = l.FindIndex(l => l.Summary == nameSummary);
-
-            l.
         }
     }
 }
